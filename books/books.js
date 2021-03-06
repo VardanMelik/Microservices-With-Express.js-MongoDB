@@ -24,6 +24,11 @@ app.get('/', (req, res) => {
     res.json('This is our main end point')
 })
 
+// Create func
+app.post('/book', (req, res) => {
+    //
+})
+
 app.listen(port, () => {
     console.log(`Server is running ${port}`);
 })
